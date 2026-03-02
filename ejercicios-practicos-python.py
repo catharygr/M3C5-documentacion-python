@@ -17,12 +17,13 @@ print(suma_lambda(1,2,3))
 
 # Utilizando la siguiente lista y variable, determine si el valor de la variable coincide o no con un valor de la lista. *Sugerencia, si es necesario, utilice un bucle for in y el operador in.
 
-nombre = 'Henry'
 
+
+nombre = 'Enrique'
 lista_nombre = 'Jessica', 'Paul', 'George', 'Henry', 'Adán'
 
+# Usando bucle for in
 coincide = False  
-
 for huesped in lista_nombre:
     if huesped == nombre:
         coincide = True
@@ -33,4 +34,8 @@ if coincide:
 else:
     print(f"El nombre '{nombre}' NO coincide con ningún valor de la lista.")
 
-  
+# Opción sin bucle (Más concisa)
+if nombre in lista_nombre:
+    print(f"El nombre '{nombre}' coincide con un valor de la lista")
+else:
+    print(f"El nombre '{nombre}' NO coincide con ningún valor de la lista.")
