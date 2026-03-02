@@ -15,7 +15,8 @@ suma_lambda = lambda uno, dos, tres: uno + dos + tres
 
 print(suma_lambda(1,2,3))
 
-# Utilizando la siguiente lista y variable, determine si el valor de la variable coincide o no con un valor de la lista. *Sugerencia, si es necesario, utilice un bucle for in y el operador in.
+# Utilizando la siguiente lista y variable, determine si el valor de la variable coincide o no con un valor de la lista.
+# *Sugerencia, si es necesario, utilice un bucle for in y el operador in.
 
 
 
